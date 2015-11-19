@@ -1,0 +1,59 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11 Νοε 2015, 7:23:16 μμ
+    Author     : Gomesito
+*/
+body {
+    background-image: url("../images/mainBackground.jpg");
+    background-color: #cccccc;
+    background-size: cover;
+    text-align: center;
+}
+#header {
+    background-color:transparent;
+    color:brown;
+    text-align:center;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    padding:10px;
+    font-size: 35px;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    cursor: default;
+}
+#animatedFarmer{
+    position:absolute;
+    bottom: 10px;
+    left: 20px;
+    cursor: none;
+}
+#farmer{
+    width: 50%;
+    height: 50%;
+    pointer-events: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+}
+#links{
+    line-height:30px;
+    background-color:transparent;
+    height:300px;
+    width:300px;
+    float:right;
+    padding:5px;
+    font-size: 30px;
+}
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align:center;
+    padding:5px;	 	 
+}
